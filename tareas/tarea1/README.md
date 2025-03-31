@@ -12,8 +12,9 @@ Jira se relaciona con metodologías ágiles a través de Scrum y Kanban, como se
 
 ###  Trello
 Trello, al igual que Jira, es una herramienta desarrollada por Atlassian, liberada en el 2011. Sin embargo, a diferencia de Jira, Trello se enfoca más en lo visual. Particularmente, hace uso de tableros visuales y de tarjetas para así lograr una ogranización de tareas llamativa, eficiente y concisa. Sus principales funcionalidades abarcan:
-- Tableros de metodologías Kanban y Scrum.
-- Seguimientos de incidencias y errores a través de informes detallados sobre el rendimiento del equipo.
-- Permite integración con herramientas como Confluence, Bitbucket, y , más relevante, Github, ya que es la plataforma principal en la que se va a desarrollar todo el curso.
+- Interfaces intuitivas basadas en arrastrar y soltar, como click and drag.
+- Tableros, listas y tarjetas personalizables.
+- Integración con aplicaciones como Slack  y Google Drive.
+Trello también se relaciona con las metodologías ágiles de Scrum y Kanban. Kanban, al ser tan visual y al estar tan enfocado en organización llamativa, es la integración natural a ésta herramienta. Sin embargo, Scrum también tiene sus ventajas para esta herramienta. Esto es más que todo debido a que, si bien no hay soporte nativo y literal para los sprints, la gestión de backlog que brinda la metodología Scrum es perfecta para el uso de Trello.
 
 ### Azure Devops
