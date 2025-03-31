@@ -1,2 +1,3 @@
 # Tarea 1: Modelos Ágiles y Herramientas de Gestión de Proyectos en la Industria del Software. Sebastián Bonilla Vega, C01263.
 ## Herramientas de gestión de proyectos de software y tecnología de apoyo:
+Existen diversas y variadas tecnologías y herramientas que se pueden utilizar con el objetivo de gestionar proyectos. Dichos proyectos abarcan varias áreas, que no se ven limitadas exclusivamente al área de desarrollo de software, lo que vuelve estas metodologías universales. Por consiguiente, la versatilidad de estás herramientas amerita y vuelve atractiva su aprendizaje profundo y sensato. Para empezar, se van a analizar las herramientas de **Jira, Trello y Azure DevOps**.
