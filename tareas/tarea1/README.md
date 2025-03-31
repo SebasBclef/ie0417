@@ -1,1 +1,2 @@
-# Tarea 1: Modelos Ágiles y Herramientas de Gestión de Proyectos en la Industria del Software.
+# Tarea 1: Modelos Ágiles y Herramientas de Gestión de Proyectos en la Industria del Software. Sebastián Bonilla Vega, C01263.
+## Herramientas de gestión de proyectos de software y tecnología de apoyo:
