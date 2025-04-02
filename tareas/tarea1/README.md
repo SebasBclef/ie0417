@@ -33,3 +33,8 @@ Ahora, habiendo visto un poco de las metodologías escogidas, se puede hacer la 
 | Jira         | Media          | Alta       | Alta        |
 | Trello       | Alta           | Media      | Alta        |
 | Azure DevOps | Media          | Alta       | Media       |
+
+## Marco Teórico Profundo de Scrum y Kanban
+### Historia y Origen de Cada Enfoque
+#### Scrum
+#### Kanban
