@@ -50,4 +50,19 @@ Kanban, en contraste, tiene sus raíces mucho más engranadas y antiguas. Taiich
 - Limitación del Trabajo en Proceso (WIP): Esto se hace con el objetivo de evitar la sobrecarga hacia el equipo desarrollador.
 - Gestión del Flujo: La metodología visual de Kanban permite visualizar y optimizar las entregas de los proyectos y trabajos. 
 -Mejora Continua:Se pueden implementar cambios graduales y lentos para lograr optimizar el sistema en desarrollo.
-
+### Estructura de Trabajo
+#### Scrum
+- Roles: Product Owner, Scrum Master y Equipo de Desarrollo.
+- Artefactos: Product Backlog, Sprint Backlog y el Incremento.
+- Ceremenias Scrum: Sprint Planning, Daily Scrum, Sprint Reviwe y Sprint Retrospective.
+#### Kanban
+- Columnas: Representan los estados del trabajo (To Do, In Progress y Done.)
+- Flujo de Trabajo: Control del avance de las tareas en el tablero.
+- WIP (Work In Progress): Corresponde al límite de tareas en cada estado.
+### Ventajas y Desventajas
+| Aspecto       | Scrum                                                              | Kanban | Popularidad |
+|---------------|--------------------------------------------------------------------|------------|-------------|
+| Flexibilidad  | Menos flexible por los sprints definidos                           | Alta       | Alta        |
+| Roles         | Estructura clara con roles definidos                               | Media      | Alta        |
+| Entrega       | Incremental con entregas al final de cada sprint                   | Alta       | Media       |
+| Adaptabilidad | Pejor para proyectos con requisitos bien definidos y estructurados | Alta       | Media       |
