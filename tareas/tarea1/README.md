@@ -37,4 +37,6 @@ Ahora, habiendo visto un poco de las metodologías escogidas, se puede hacer la 
 ## Marco Teórico Profundo de Scrum y Kanban
 ### Historia y Origen de Cada Enfoque
 #### Scrum
+Scrum fue formalmente introducido en 1995. Fue desarrollado por **Jeff Sutherland y Ken Schwaber**, en la coferencia de OOPSLA del mismo año (Object Oriented Programming, Systems, Languages and Applications). Su origen principal se basa en un archivo escrito en 1986 por Takeuchi y Nonaka, donde se compara el desarrollo de productos con un 'Scrum' de Rugby. Entonces, la popularidad de Scrum crece con la moda del movimiento ágil.
 #### Kanban
+Kanban, en contraste, tiene sus raíces mucho más engranadas y antiguas. Taiichi Ohnoo desarrolló este enfoque como un método para mejorar la eficiencia productiva en Toyota durante la década de 1940. Sin embargo, volvió a reaparecer en la década de los 2000, cuando **David J. Anderson** adaptó la metodología Kanban para el desarrollo y diseño de Software.
