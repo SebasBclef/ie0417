@@ -66,3 +66,6 @@ Kanban, en contraste, tiene sus raíces mucho más engranadas y antiguas. Taiich
 | Roles         | Estructura clara con roles definidos                               | No hay roles específicos                       | 
 | Entrega       | Incremental con entregas al final de cada sprint                   | Flujo continuo de entregas                     | 
 | Adaptabilidad | Pejor para proyectos con requisitos bien definidos y estructurados | Sirve para proyectos con requisitos fluctuantes| 
+### Entonces...¿Cuándo Usar Uno u Otro?
+- Scrum resulta ser más util en proyectos planificbales, donde se necesiten entregas incrementales, de poco a poco. Entonces, donde sea que se requiera una estructura más definida, es preferible escoger scrum.
+- Kanban resulta ser mejor para situaciones en las que los equipos manejen tareas en flujo continuo,  como soporte técnico o mantenimiento.
