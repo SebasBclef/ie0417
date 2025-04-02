@@ -60,9 +60,9 @@ Kanban, en contraste, tiene sus raíces mucho más engranadas y antiguas. Taiich
 - Flujo de Trabajo: Control del avance de las tareas en el tablero.
 - WIP (Work In Progress): Corresponde al límite de tareas en cada estado.
 ### Ventajas y Desventajas
-| Aspecto       | Scrum                                                              | Kanban | Popularidad |
-|---------------|--------------------------------------------------------------------|------------|-------------|
-| Flexibilidad  | Menos flexible por los sprints definidos                           | Alta       | Alta        |
-| Roles         | Estructura clara con roles definidos                               | Media      | Alta        |
-| Entrega       | Incremental con entregas al final de cada sprint                   | Alta       | Media       |
-| Adaptabilidad | Pejor para proyectos con requisitos bien definidos y estructurados | Alta       | Media       |
+| Aspecto       | Scrum                                                              | Kanban                                         |
+|---------------|--------------------------------------------------------------------|------------------------------------------------|
+| Flexibilidad  | Menos flexible por los sprints definidos                           | Adaptable a cambios inmediatos                 | 
+| Roles         | Estructura clara con roles definidos                               | No hay roles específicos                       | 
+| Entrega       | Incremental con entregas al final de cada sprint                   | Flujo continuo de entregas                     | 
+| Adaptabilidad | Pejor para proyectos con requisitos bien definidos y estructurados | Sirve para proyectos con requisitos fluctuantes| 
