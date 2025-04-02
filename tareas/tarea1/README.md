@@ -69,3 +69,9 @@ Kanban, en contraste, tiene sus raíces mucho más engranadas y antiguas. Taiich
 ### Entonces...¿Cuándo Usar Uno u Otro?
 - Scrum resulta ser más util en proyectos planificbales, donde se necesiten entregas incrementales, de poco a poco. Entonces, donde sea que se requiera una estructura más definida, es preferible escoger scrum.
 - Kanban resulta ser mejor para situaciones en las que los equipos manejen tareas en flujo continuo,  como soporte técnico o mantenimiento.
+
+
+## Casos Reales de Aplicación en la Industria
+### Spotify
+Según éste [video](https://www.youtube.com/watch?app=desktop&v=t3AoEcMpqTA&utm_source=chatgpt.com), Spotify implementa un modelo ágil propio, con su propia adaptación. Se dividen en squads, tribes, chapters y guilds. Sin embargo algunas de sus herramientas tecnológicas incluten Jira y Trello para la gestión de proyectos. Este enfoque ha mejorado la colaboración y la velocidad de desarrollo, aunque también ha presentado desafíos en la coordinación entre squads y la escalabilidad del modelo. Entonces, según éste [link](https://www.joinleland.com/library/a/the-spotify-model-a-revolutionary-approach-to-agile-product-development?utm_source=chatgpt.com), Spotify presenta una adaptación específica de una metodología ágil, que tomaron y adaptaron para satisfacer las necesidades específicas de la empresa. Esto le da énfasis particular a la autonomía y la cultura organizacional de la empresa.
+### Microsoft
