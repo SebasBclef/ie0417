@@ -40,3 +40,14 @@ Ahora, habiendo visto un poco de las metodologías escogidas, se puede hacer la 
 Scrum fue formalmente introducido en 1995. Fue desarrollado por **Jeff Sutherland y Ken Schwaber**, en la coferencia de OOPSLA del mismo año (Object Oriented Programming, Systems, Languages and Applications). Su origen principal se basa en un archivo escrito en 1986 por Takeuchi y Nonaka, donde se compara el desarrollo de productos con un 'Scrum' de Rugby. Entonces, la popularidad de Scrum crece con la moda del movimiento ágil.
 #### Kanban
 Kanban, en contraste, tiene sus raíces mucho más engranadas y antiguas. Taiichi Ohnoo desarrolló este enfoque como un método para mejorar la eficiencia productiva en Toyota durante la década de 1940. Sin embargo, volvió a reaparecer en la década de los 2000, cuando **David J. Anderson** adaptó la metodología Kanban para el desarrollo y diseño de Software.
+### Principios Fundamentales
+#### Scrum
+- Transparencia: Todos los procesos y progresos del desarrollo de software deben ser visibles y trazables por todo el equipo de trabajo.
+- Inspección: Cualquier avance realizado o logrado debe ser inspeccionado y revisado de manera regular y consistente.
+- Adaptación: Los procesos deben ser ajustados y realimentados en función del feedback recibido y desarrollado. 
+#### Kanban
+- Visualización de Trabajo: Se usan tableros fisicos para representar todas las tareas y las subdivisiones de las mismas.
+- Limitación del Trabajo en Proceso (WIP): Esto se hace con el objetivo de evitar la sobrecarga hacia el equipo desarrollador.
+- Gestión del Flujo: La metodología visual de Kanban permite visualizar y optimizar las entregas de los proyectos y trabajos. 
+-Mejora Continua:Se pueden implementar cambios graduales y lentos para lograr optimizar el sistema en desarrollo.
+
