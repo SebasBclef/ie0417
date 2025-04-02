@@ -16,13 +16,14 @@ Trello, al igual que Jira, es una herramienta desarrollada por Atlassian, libera
 - Tableros, listas y tarjetas personalizables.
 - Integración con aplicaciones como Slack  y Google Drive.
 
-Trello también se relaciona con las metodologías ágiles de Scrum y Kanban. Kanban, al ser tan visual y al estar tan enfocado en organización llamativa, es la integración natural a ésta herramienta. Sin embargo, Scrum también tiene sus ventajas para esta herramienta. Esto es más que todo debido a que, si bien no hay soporte nativo y literal para los sprints, la gestión de backlog que brinda la metodología Scrum es perfecta para el uso de Trello.
+Trello también se relaciona con las metodologías ágiles de Scrum y Kanban. Kanban, al ser tan visual y al estar tan enfocado en organización llamativa, es la integración natural a ésta herramienta. Sin embargo, Scrum también tiene sus ventajas para esta herramienta. Esto es más que todo debido a que, si bien no hay soporte nativo y literal para los sprints, la gestión de backlog que brinda la metodología Scrum es perfecta para el uso de Trello.Se puede acceder a la página oficial de Trello [aquí.](https://trello.com/es)
 
 ### Azure Devops
 Azure Devops, a diferencia de las otras 2 tecnologías, fué desarrollado por Microsoft para la gestión de proyectos con integración directa para CI/CD. Algunas funcionalidades brindadas por Azure incluyen:
 - Seguimiento de tareas individuales y sprints de Scrum.
 - Repositorios de código realizados con git.
 - Pipelines dedicados a la integración y despliegue continuo.
+Se puede accesar a la página oficial de Azure Devops [aquí.](https://azure.microsoft.com/es-es/products/devops)
 
 
 Ahora, habiendo visto un poco de las metodologías escogidas, se puede hacer la siguiente tabla, resaltando los atributos más relevantes primero:
