@@ -1,0 +1,17 @@
+# Project Info
+PROJECT_NAME           = "Pong en C++"
+PROJECT_BRIEF          = "Juego clásico de Pong en consola"
+OUTPUT_DIRECTORY       = docs
+
+# Input
+INPUT                  = main.cpp
+RECURSIVE              = NO
+FILE_PATTERNS          = *.cpp *.h
+
+# Output
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+
+# Extract All
+EXTRACT_ALL            = YES
+QUIET                  = YES
