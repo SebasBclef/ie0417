@@ -336,5 +336,5 @@ Las tablas clave deben incluir:
      - Duración del curso.
   2. El estudiante puede **cerrar la ventana** de detalles y continuar visualizando el plan de estudios o seleccionar otro curso.
 
-
-
+# Diagrama final:
+![Captura de pantalla](diagrama.png)
