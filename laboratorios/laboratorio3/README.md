@@ -1,4 +1,4 @@
-## Sebastián Bonilla Vega,C01263
+## Sebastián Bonilla Vega, C01263.
 Además, el laboratorio se hizo en conjunto con:
 - Brenda Castro Jiménez, C21904.
 - Luis Brenes Castro, C21324.
