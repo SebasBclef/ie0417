@@ -1,6 +1,9 @@
 ## Sebastián Bonilla Vega
 ## C01263
-
+Además, el laboratorio se uso en conjunto con:
+Brenda Castro Jiménez, C21904.
+Luis Brenes Castro, C21324.
+Byron Arguedas López, C10606.
 ---
 
 # Escenario: Sistema de inscripción a cursos universitarios
