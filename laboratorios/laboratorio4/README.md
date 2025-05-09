@@ -28,7 +28,6 @@ class Logger:
     def log(self, message):
         print(f"[LOG]: {message}")
 
-# Uso
 logger1 = Logger()
 logger2 = Logger()
 
@@ -64,7 +63,6 @@ class Compressor:
     def compress(self, data):
         self.strategy.compress(data)
 
-# Uso
 compressor = Compressor(ZipCompression())
 compressor.compress("archivo.txt")
 
@@ -77,7 +75,6 @@ La app debe funcionar en Windows, Linux y macOS, sin acoplarse a clases específ
 - Patrón Propuesto: Abstract Factory
 - Justificación: Abstract Factory permite crear familias de objetos relacionados sin especificar sus clases concretas. Útil para crear componentes específicos del sistema operativo sin acoplamiento directo.
 #### Una implementación propuesta sería:
-# Interfaces
 class Button:
     def paint(self):
         pass
@@ -102,12 +99,11 @@ class LinuxFactory(GUIFactory):
     def create_button(self):
         return LinuxButton()
 
-# Cliente
+
 def build_ui(factory: GUIFactory):
     button = factory.create_button()
     button.paint()
 
-# Uso
 os_type = "Linux"
 factory = LinuxFactory() if os_type == "Linux" else WindowsFactory()
 build_ui(factory)
