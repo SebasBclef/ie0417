@@ -1,0 +1,29 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:15
+    env_file: .env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - red_local
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"  # Aquí expones el puerto al host
+    env_file: .env
+    depends_on:
+      - db
+    networks:
+      - red_local
+
+volumes:
+  postgres_data:
+
+networks:
+  red_local:
