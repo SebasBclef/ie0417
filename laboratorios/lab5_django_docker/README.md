@@ -1,6 +1,5 @@
 # Laboratorio 5: Despliegue de una aplicación Django con Docker, Infraestructura, Persistencia y redes.
-
-# 🛠️ Informe Técnico - Aplicación Django con PostgreSQL en Docker
+# xCarlos Moya Saenz, C15346. Sebastian Bonilla Vega,C01263.
 
 ## 📐 Arquitectura del Sistema
 
@@ -16,7 +15,7 @@ Ambos se comunican por una red interna llamada `red_local` y comparten un volume
 ```
 ┌────────────┐      red_local      ┌─────────────┐
 │   web      │◀──────────────────▶│     db       │
-│ Django app │                    │ PostgreSQL   │
+│ Django app │                    │ PostgreSQL  │
 └────────────┘                    └─────────────┘
      ▲
      │
@@ -170,22 +169,17 @@ tzdata==2025.2
    ```
 
 4. **Acceder a la aplicación:**
-   Ir a [http://localhost:8000](http://localhost:8000) en el navegador.
-
+   Ir a [http://localhost:8000](http://localhost:8000) y a [http://localhost:8000/admin/](http://localhost:8000/admin/) una vez que todos los archivos están listos.
 ---
+Además, es crucial tener descargada la aplicación de Docker, en la versión más actualizada y tenerla abierta a la hora de ejecutar los comandos en la terminal.
 
 ## 📸 Capturas de Pantalla
 
-_Aquí se deben insertar capturas de la aplicación en funcionamiento, como:_
-
-- Pantalla principal del sitio.
-- Panel de administración de Django.
-- Página de una vista personalizada.
-
----
+![Pantalla principal](./lab5_django_docker/1.png)
+![Pantalla principal](./imagenes/pantalla_principal.png)
+![Pantalla principal](./imagenes/pantalla_principal.png)
+![Pantalla principal](./imagenes/pantalla_principal.png)
 
 ## ✅ Conclusión
 
-Este entorno demuestra cómo contenerizar una aplicación Django conectada a PostgreSQL utilizando Docker de forma limpia, reutilizable y aislada del entorno local. Se facilita así el despliegue en otras máquinas y la colaboración entre desarrolladores.
-
----
+Este proyecto ejemplifica el despliegue eficiente de una aplicación Django con una base de datos PostgreSQL, usando Docker para contenerización. La solución proporciona un entorno aislado, reproducible y fácil de desplegar en distintos entornos, lo que facilita la colaboración y mantenimiento del proyecto.
