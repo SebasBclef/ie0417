@@ -1,5 +1,5 @@
 # Laboratorio 5: Despliegue de una aplicación Django con Docker, Infraestructura, Persistencia y redes.
-# xCarlos Moya Saenz, C15346. Sebastian Bonilla Vega,C01263.
+# Carlos Moya Saenz, C15346. Sebastian Bonilla Vega,C01263.
 
 ## 📐 Arquitectura del Sistema
 
@@ -175,7 +175,7 @@ Además, es crucial tener descargada la aplicación de Docker, en la versión m�
 
 ## 📸 Capturas de Pantalla
 
-![Pantalla principal](./lab5_django_docker/1.png)
+![Pantalla principal](./1.png)
 ![Pantalla principal](./imagenes/pantalla_principal.png)
 ![Pantalla principal](./imagenes/pantalla_principal.png)
 ![Pantalla principal](./imagenes/pantalla_principal.png)
