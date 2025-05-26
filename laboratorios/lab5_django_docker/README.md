@@ -169,14 +169,14 @@ tzdata==2025.2
    ```
 ---
 4. **Acceder a la aplicación:**
-   Ir a [http://localhost:8000](http://localhost:8000) y a [http://localhost:8000/admin/](http://localhost:8000/admin/) una vez que todos los archivos están listos.
+   Ir a [http://localhost:8000](http://localhost:8000) para verificar que se creo la aplicación.
 ---
 5. **Crear un super usuario:**
-Cómo se comparte entre desarrolladores, es mejor crear un super usuario. Se ejecuta el comando:
+Cómo se comparte entre desarrolladores, es mejor crear un super usuario ;D. Se ejecuta el comando:
  ```
    docker-compose exec web python manage.py createsuperuser 
  ```
-Y después se selecciona un nombre de usuario y contraseña adecauda. Luego, acceder a la siguiente página: [http://localhost:8000/admin/](http://localhost:8000/admin/). \\
+Y después se selecciona un nombre de usuario y contraseña adecuada para poder acceder al programa. Luego, acceder a la siguiente página: [http://localhost:8000/admin/](http://localhost:8000/admin/). \\
 Además, es crucial tener descargada la aplicación de Docker, en la versión más actualizada y tenerla abierta a la hora de ejecutar los comandos en la terminal.
 
 ## 📸 Capturas de Pantalla
