@@ -14,7 +14,7 @@ Ambos se comunican por una red interna llamada `red_local` y comparten un volume
 
 ```
 ┌────────────┐      red_local      ┌─────────────┐
-│   web      │◀──────────────────▶│     db       │
+│   web      │◀──────────────────▶│     db     │
 │ Django app │                    │ PostgreSQL  │
 └────────────┘                    └─────────────┘
      ▲
@@ -167,18 +167,28 @@ tzdata==2025.2
    ```bash
    docker-compose up --build
    ```
-
+---
 4. **Acceder a la aplicación:**
    Ir a [http://localhost:8000](http://localhost:8000) y a [http://localhost:8000/admin/](http://localhost:8000/admin/) una vez que todos los archivos están listos.
 ---
+5. **Crear un super usuario:**
+Cómo se comparte entre desarrolladores, es mejor crear un super usuario. Se ejecuta el comando:
+---
+   docker-compose exec web python manage.py createsuperuser 
+---
+Y después se selecciona un nombre de usuario y contraseña adecauda. Luego, acceder a la siguiente página: [http://localhost:8000/admin/](http://localhost:8000/admin/) 
 Además, es crucial tener descargada la aplicación de Docker, en la versión más actualizada y tenerla abierta a la hora de ejecutar los comandos en la terminal.
 
 ## 📸 Capturas de Pantalla
 
 ![Pantalla principal](./1.png)
+La captura anterior corresponde a la generación de la aplicación de Django a través del docker.
 ![Pantalla principal](./2.png)
+La captura anterior corresponde a cómo se vé la terminal mientras se navega a través de la apliación.
 ![Pantalla principal](./3.png)
+La captura anterior muestra cómo queda el local host después de correr el programa.
 ![Pantalla principal](./4.png)
+La captura final muestra cómo queda la aplicación desplegada después de crear el super usuario.
 
 ## ✅ Conclusión
 
