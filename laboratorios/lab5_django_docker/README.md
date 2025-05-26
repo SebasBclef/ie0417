@@ -176,7 +176,7 @@ Cómo se comparte entre desarrolladores, es mejor crear un super usuario ;D. Se 
  ```
    docker-compose exec web python manage.py createsuperuser 
  ```
-Y después se selecciona un nombre de usuario y contraseña adecuada para poder acceder al programa. Luego, acceder a la siguiente página: [http://localhost:8000/admin/](http://localhost:8000/admin/). \\
+Y después se selecciona un nombre de usuario y contraseña adecuada para poder acceder al programa. Luego, acceder a la siguiente página: [http://localhost:8000/admin/](http://localhost:8000/admin/). 
 Además, es crucial tener descargada la aplicación de Docker, en la versión más actualizada y tenerla abierta a la hora de ejecutar los comandos en la terminal.
 
 ## 📸 Capturas de Pantalla
