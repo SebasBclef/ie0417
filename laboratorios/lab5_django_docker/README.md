@@ -176,9 +176,9 @@ Además, es crucial tener descargada la aplicación de Docker, en la versión m�
 ## 📸 Capturas de Pantalla
 
 ![Pantalla principal](./1.png)
-![Pantalla principal](./imagenes/pantalla_principal.png)
-![Pantalla principal](./imagenes/pantalla_principal.png)
-![Pantalla principal](./imagenes/pantalla_principal.png)
+![Pantalla principal](./2.png)
+![Pantalla principal](./3.png)
+![Pantalla principal](./4.png)
 
 ## ✅ Conclusión
 
