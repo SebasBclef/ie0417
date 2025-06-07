@@ -14,38 +14,33 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y build-essential cmake libgtest-dev
-        cd /usr/src/gtest
-        sudo cmake CMakeLists.txt
-        sudo make
-        sudo cp *.a /usr/lib
+    - name: Set up CMake
+      uses: lukka/get-cmake@v3.21.2
 
-    - name: Configure project
+    - name: Install dependencies
+      run: sudo apt-get update && sudo apt-get install -y build-essential libgtest-dev cmake
+
+    - name: Build GoogleTest
+      run: |
+        cd /usr/src/googletest
+        sudo cmake .
+        sudo make
+        sudo cp googletest/lib/*.a /usr/lib
+
+    - name: Build and run tests
       run: |
         mkdir build
         cd build
         cmake ..
-
-    - name: Build project
-      run: |
-        cd build
         make
-
-    - name: Run tests
-      run: |
-        cd build
-        ./AuthenticationTests  # ← Cambia esto al nombre de tu ejecutable de pruebas
+        ./test_calculator
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-
+      
     - name: Deploy to production
       run: echo "Deploying to production server"
