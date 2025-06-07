@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# AÒadir Google Test (esto descarga y construye GTest + GMock autom·ticamente)
+# A√±adir Google Test (esto descarga y construye GTest + GMock autom√°ticamente)
 include(FetchContent)
 FetchContent_Declare(
   googletest
@@ -16,7 +16,7 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-# AÒadir ejecutable de pruebas (aquÌ pones tus archivos fuente de prueba)
+# A√±adir ejecutable de pruebas (aqu√≠ pones tus archivos fuente de prueba)
 add_executable(test_authentication
   test_authentication.cpp
 )
