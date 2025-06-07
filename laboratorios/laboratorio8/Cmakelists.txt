@@ -1,0 +1,33 @@
+cmake_minimum_required(VERSION 3.10)
+project(AuthenticationTests)
+
+# Recomendado para evitar problemas con gtest
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+# Añadir Google Test (esto descarga y construye GTest + GMock automáticamente)
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  URL https://github.com/google/googletest/archive/release-1.11.0.zip
+)
+# Evita que GoogleTest cree sus propios tests
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+
+# Añadir ejecutable de pruebas (aquí pones tus archivos fuente de prueba)
+add_executable(test_authentication
+  test_authentication.cpp
+)
+
+# Linkear con GTest y GMock
+target_link_libraries(test_authentication
+  gtest
+  gtest_main
+  gmock
+)
+
+# Habilitar testing y registrar el test
+enable_testing()
+add_test(NAME test_authentication COMMAND test_authentication)
