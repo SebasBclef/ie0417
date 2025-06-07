@@ -30,7 +30,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        ../laboratorios/laboratorio8  
+        cmake ../laboratorios/laboratorio8  
         make
         ./test_calculator
 
